@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>          //printfを使うための準備
 
-int main(void) {
-    /* 課題0202: 「Hello world」(Helloとworldの間にある空白はタブ文字にして，行末に改行しない)と表示するC言語プログラム */
-    
-    return 0;
-}
+int main(void) {            //main関数の始まり
+    printf("Hello\tworld"); //間にタブを入れ、改行せず表示
+    return 0;              //正常終了
+}                          //main関数の終わり
